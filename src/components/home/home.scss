@@ -1,0 +1,76 @@
+$main-font: "Open Sans", sans-serif;
+
+.add-people {
+    background: #FFF617;
+    height: 138px;
+    margin: 0 auto;
+
+    .add-people-p {
+        padding-top: 15px;
+        margin-left: 5%;
+        margin-bottom: 10px;
+        font-family: $main-font;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16.94px;
+        text-align: left;
+
+    }
+
+    &-div {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0 10px;
+
+        .add-people-btn {
+            background: #D9D9D9;
+            border: none;
+            border-radius: 3px;
+            margin: 0 auto;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14.52px;
+            text-align: center;
+            color: black;
+            width: 45%;
+        }
+
+        p {
+            font-family: $main-font;
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 12.1px;
+            text-align: left;
+            color: #FFFFFF;
+
+
+        }
+    }
+
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.diogram-home {
+    width: 30px;
+    height: 30px;
+    padding-top: 9px;
+    margin-left: 50%;
+    border-radius: 50%;
+    background: #FFFFFF;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12.1px;
+    text-align: center;
+}
+
+.chat-photo {
+    margin-left: 30%;
+}

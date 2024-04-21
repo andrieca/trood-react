@@ -1,0 +1,166 @@
+.login-box{
+    width: 85%;
+    margin: 0 auto;
+
+
+
+    .profile-avatar{
+        width: 268px;
+        margin-top: 20px;
+    }
+    .profile-d{
+        width: 40px;
+    }
+    .diogram{
+        width: 40px;
+        height: 40px;
+        margin-top: 5px;
+        margin-left: 15%;
+        border-radius: 50%;
+        border: 3px solid grey;
+    }
+    .profile-p{
+        margin-left: 19%;
+        margin-top: 5px;
+    }
+    
+    .profile-photo{
+        // width: 73px;
+        height: 90px;
+        border-radius: 50%;
+        margin: auto;
+    }
+    .profile-data{
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        // font-family: Inter;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 19.36px;
+        text-align: left;
+
+
+    }
+
+    .profile-info{
+        margin-top: 20px;
+
+        .div-info{
+            margin-top: 5px;
+            height: 20px;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14.52px;
+            text-align: left;
+            color: #00000080;
+
+
+        }
+    }
+    .profile-modify{
+        width: 72px;
+        height: 23px;
+        border-radius: 3px 0px 0px 0px;
+        border: none;
+        opacity: 0px;
+        background: #D9D9D9;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 12.1px;
+        text-align: center;
+        float: right;
+
+
+    }
+    .profile-out{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.52px;
+    }
+
+    .profile-credit{
+        height: 37px;
+        margin-top: 7px;
+        border: 1px solid black;
+        border-radius: 3px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 35px;
+       
+    }
+    .profile-invite{
+        height: 37px;
+        margin-top: 5px;
+        margin-bottom: 25px;
+        background: #D9D9D9;
+        border-radius: 3px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 35px;
+        
+    }
+    .pr{
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 16.94px;
+        text-align: center;
+        .profile-diogram{
+            margin-top: 10px;
+            padding: 0 7px;
+            .p{  
+                height: 8px;
+                font-size: 7px;
+                font-weight: 700;
+                line-height: 8.47px;
+                text-align: center;
+
+            }
+            .prozent{
+                padding-top: 7px;
+                margin-bottom: 2px;
+            }
+            .blue{
+                height: 36px;
+                margin: 3px;
+                padding-top: 5px;
+                border: 0.5px solid #2339FF;
+                border-radius: 3px;
+            }
+            .red{
+                height: 36px;
+                margin: 3px;
+                padding-top: 5px;
+                border: 0.5px solid #FF0000;
+                border-radius: 3px;
+            }
+            .yellow{
+                height: 36px;
+                margin: 3px;
+                padding-top: 5px;
+                border: 0.5px solid #FFBE17;
+                border-radius: 3px;
+            }
+            .grune{
+                height: 36px;
+                margin: 3px;
+                padding-top: 5px;
+                border: 0.5px solid #109D37;
+                border-radius: 3px;
+            }
+
+         }
+
+         .go{
+            height: 19px;
+            width: 100%;
+            margin-top: 15px;
+            border-radius: 3px;
+            border: 0.5px solid #000000
+         }
+    }
+
+}

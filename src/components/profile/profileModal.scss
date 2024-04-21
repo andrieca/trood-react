@@ -1,0 +1,57 @@
+.login-box {
+    width: 85%;
+    margin: 0 auto;
+
+    .photo-avatar {
+        width: 104px;
+        height: 104px;
+        border-radius: 50%;
+    }
+
+    .div-photos {
+        margin: 0 auto;
+        padding-right: 0;
+    }
+
+    .photo-div {
+        padding-left: 0;
+    }
+
+    .photo-img {
+        width: 54px;
+        height: 54px;
+        margin: 0 auto;
+    }
+
+    .user-box {
+        width: 100%;
+        margin-top: 7px;
+
+        input {
+            width: 100%;
+
+        }
+    }
+
+}
+
+.btn-change {
+    // margin: 0 auto;
+    margin: 20px 30px;
+    width: 200px;
+    height: 23px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12.1px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    background: #D9D9D9;
+
+
+}
+
+.div-radio {
+    margin-top: 5px;
+}
